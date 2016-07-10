@@ -4,26 +4,24 @@
 void main ()
 {
 int num[30];
-int i,j,a,n;
-printf("Enter the value of n\n");
-scanf("%d",&n);
-printf("Enter the numbers \n");
-for(i=0;i<n;++i)
+int i,j,tem;
+printf("Enter the 5 numbers \n");
+for(i=0;i<5;++i)
 scanf("%d",&num[i]);
-for(i=0;i<n;++i)
+for(i=0;i<5;++i)
 {
-for(j=i+1;j<n;++j)
+for(j=i+1;j<5;++j)
 {
 if(num[i]<num[j])
 {
-a=num[i];
+tem=num[i];
 num[i]=num[j];
-num[j]=a;
+num[j]=tem;
 }
 } 
 }
-printf("The numbers arranged in descending order are given below\n");
-for(i=0;i<n;++i)
+printf("Descending order of the numbers are \n");
+for(i=0;i<5;++i)
 {
 printf("%d\n",num[i]);
 }
