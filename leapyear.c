@@ -6,10 +6,10 @@ printf("enter the year");
 scanf("%d",&year);
 if(year%4==0)
 {
-printf("ordinary year");
+printf("leap year");
 }
 else
 {
-printf("leap year")
+printf("ordinary year")
 }
 }
