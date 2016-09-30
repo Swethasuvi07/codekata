@@ -10,6 +10,6 @@ printf("leap year");
 }
 else
 {
-printf("ordinary year")
+printf("ordinary year");
 }
 }
